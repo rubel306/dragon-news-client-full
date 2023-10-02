@@ -1,0 +1,5 @@
+.news-ticker {
+  background: var(--Dark-07, #f3f3f3);
+  padding: 15px;
+  margin-bottom: 30px;
+}
