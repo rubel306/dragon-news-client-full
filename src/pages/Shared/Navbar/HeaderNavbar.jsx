@@ -7,7 +7,7 @@ import "./HeaderNavbar.css";
 
 const HeaderNavbar = () => {
   return (
-    <div>
+    <div className="mb-4">
       <Navbar
         collapseOnSelect
         expand="lg"
