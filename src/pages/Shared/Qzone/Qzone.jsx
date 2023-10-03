@@ -1,4 +1,3 @@
-import React from "react";
 import img1 from "../../../../public/assets/qZone1.png";
 import img2 from "../../../../public/assets/qZone2.png";
 import img3 from "../../../../public/assets/qZone3.png";

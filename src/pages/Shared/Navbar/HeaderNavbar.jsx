@@ -25,7 +25,11 @@ const HeaderNavbar = () => {
               <p className="mb-0">
                 <FaUserAlt size="30px" className="me-2"></FaUserAlt>
               </p>
-              <Button variant="dark">Login</Button>
+              <Button variant="dark">
+                <Link className="text-white" to="/login">
+                  Login
+                </Link>
+              </Button>
             </Nav>
           </Navbar.Collapse>
         </Container>
