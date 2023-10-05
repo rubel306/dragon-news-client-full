@@ -3,9 +3,11 @@ import "./Login.css";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProviders";
+import useTitle from "../../hooks/useTitle";
 
 const Login = () => {
   const { signIn } = useContext(AuthContext);
+  useTitle("Login");
   const handleLogin = (e) => {
     e.preventDefault();
     const form = e.target;

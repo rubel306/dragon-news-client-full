@@ -2,8 +2,10 @@ import { useContext } from "react";
 import { Button, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProviders";
+import useTitle from "../../hooks/useTitle";
 
 const Registration = () => {
+  useTitle("Registration");
   const { createUser } = useContext(AuthContext);
   const handleRegistration = (e) => {
     e.preventDefault();
